@@ -13,18 +13,19 @@ function Navbar() {
                 <img src={myImage} alt="qastan logo" className="h-14" />
             </a>
         </div>
-        <NavigationMenuDemo />
         <div className='flex'>
-            <a href='/' className='m-2 flex items-center'>Oplossingen</a>
-            <a href='/' className='m-2 flex items-center'>Toepassingen</a>
-            <a href='/' className='m-2 flex items-center'>Over ons</a>
-            <a href='/' className='m-2 flex items-center'>Jobs</a>
-            <a href='/' className='m-2 flex items-center'>Contact</a>
-            <a href='/' className='m-2 flex items-center'>Blog</a>
+            <a href='/' className='m-2 flex items-center'>
+                <NavigationMenuDemo />
+            </a>
+            <a href='/Toepassingen' className='m-2 px-4 font-medium flex items-center'>Toepassingen</a>
+            <a href='/Over' className='m-2 px-4 font-medium flex items-center'>Over ons</a>
+            <a href='/Jobs' className='m-2 px-4 font-medium flex items-center'>Jobs</a>
+            <a href='/Contact' className='m-2 px-4 font-medium flex items-center'>Contact</a>
+            <a href='/Blog' className='m-2 px-4 font-medium flex items-center'>Blog</a>
         </div>
         <div className='flex'>
-            <button className='m-2 items-center'>Support</button>
-            <button className='m-2 items-center'>Taal</button>
+            <a href="/Support" className='m-2 flex items-center'>Support</a>
+            <a href='/' className='m-2 flex items-center'>Taal</a>
         </div>
     </div>
     </nav>
