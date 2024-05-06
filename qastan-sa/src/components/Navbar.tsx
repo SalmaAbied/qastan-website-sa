@@ -1,28 +1,33 @@
 import React from 'react'
 import myImage from '../img/logo.png';
+import { NavigationMenuDemo } from './shadcn/navDropdown';
 
 function Navbar() {
+
   return (
     <>
+    <nav className='bg-white text-gray-800 shadow-lg sticky top-0 z-50'>
     <div className='container mx-auto flex justify-between'>
-        <div className='mx-2'>
+        <div className='m-2'>
             <a href="/" className="flex items-center">
                 <img src={myImage} alt="qastan logo" className="h-14" />
             </a>
         </div>
+        <NavigationMenuDemo />
         <div className='flex'>
-            <a href='/' className='mx-2'>oplossingen</a>
-            <a href='/' className='mx-2'>toepassingen</a>
-            <a href='/' className='mx-2'>over ons</a>
-            <a href='/' className='mx-2'>jobs</a>
-            <a href='/' className='mx-2'>contact</a>
-            <a href='/' className='mx-2'>blog</a>
+            <a href='/' className='m-2 flex items-center'>Oplossingen</a>
+            <a href='/' className='m-2 flex items-center'>Toepassingen</a>
+            <a href='/' className='m-2 flex items-center'>Over ons</a>
+            <a href='/' className='m-2 flex items-center'>Jobs</a>
+            <a href='/' className='m-2 flex items-center'>Contact</a>
+            <a href='/' className='m-2 flex items-center'>Blog</a>
         </div>
-        <div>
-            <button className='mx-2'>support</button>
-            <button className='mx-2'>taal</button>
+        <div className='flex'>
+            <button className='m-2 items-center'>Support</button>
+            <button className='m-2 items-center'>Taal</button>
         </div>
     </div>
+    </nav>
     </>
   )
 }
