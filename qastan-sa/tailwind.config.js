@@ -1,8 +1,14 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  style: {
-    postcss: {
-      plugins: [require('tailwindcss'), require('autoprefixer')],
-    },
+  darkMode: false, 
+  content: [
+    './src/**/*.{ts,tsx}',
+    './src/*.{ts,tsx}',
+  ],
+  theme: {
+    extend: {},
   },
-};
+  variants: {
+    extend: {},
+  },
+  plugins: [require("tailwindcss-animate")],
+}
