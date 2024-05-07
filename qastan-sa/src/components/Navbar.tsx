@@ -1,17 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import myImage from '../img/logo.png';
 import { NavigationMenuDemo } from './shadcn/navDropdown';
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [showShadow, setShowShadow] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isTop = window.scrollY < 10; 
+      setShowShadow(!isTop); 
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); 
+  
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
   return (
     <>
-      <nav className='bg-white text-gray-800 lg:shadow-lg sticky top-0 z-50'>
+      <nav className={`bg-white text-gray-800 sticky top-0 z-50 ${showShadow ? 'shadow-lg' : ''}`}>
         <div className='container mx-auto flex justify-between'>
           <div className='m-2'>
             <a href="/" className="flex items-center">
