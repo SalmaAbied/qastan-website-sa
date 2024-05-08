@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
       <div className="info flex flex-col items-left gap-5 p-10 md:p-20">
         <p className="text-3xl md:text-5xl lg:text-7xl h-20">Helemaal</p>
         <p className="p2 text-3xl md:text-5xl lg:text-7xl font-bold text-orange-500 h-20 mb-5">digitaal</p>
-        <p className="text-lg md:text-xl lg:text-2xl text-center"></p>
+        <p className="text-lg md:text-xl lg:text-lg">Op zoek naar een IT-partner om de digitalisering van je organisatie in goede banen te leiden? Software op maat, document management of personeelsplanning, bij Qastan kunnen we het allemaal. </p>
         <a href="/Support" className='w-fit text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8 m-2 flex items-center'>Neem contact op</a>      
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-end">
