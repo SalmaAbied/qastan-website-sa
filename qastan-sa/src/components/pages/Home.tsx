@@ -3,6 +3,7 @@ import Hero from '../Hero'
 import Slider from '../Partners'
 import LogosSlider from '../Slider'
 import Cards from '../TextAndImage'
+import Oplossingen from '../Cards'
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       {/* <Slider/>  */}
       <LogosSlider />
       <Cards/>
+      <Oplossingen/>
     </>
   )
 }
