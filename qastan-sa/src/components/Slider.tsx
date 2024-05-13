@@ -65,7 +65,6 @@ const LogosSlider = () => {
       <button onClick={goToNextSlide}>
         <ArrowRightIcon size={24} />
       </button>
-      <hr className="border border-legoOrange" />
     </div>
   );
 };

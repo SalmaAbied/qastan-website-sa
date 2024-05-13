@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
     };
   }, []);
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center sm:p-5 md:p-10 min-h-screen overflow-hidden">
+    <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center sm:p-5 md:p-10 overflow-hidden">
       <div className="flex flex-col items-left gap-5 p-10 md:p-20">
         <p className="text-gray-800 text-3xl md:text-5xl lg:text-7xl h-10 lg:h-20">Helemaal</p>
         <p className="p2 text-3xl md:text-5xl lg:text-7xl font-bold text-orange-500 h-10 lg:h-20 mb-5">digitaal</p>

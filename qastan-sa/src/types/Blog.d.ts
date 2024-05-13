@@ -14,3 +14,10 @@ interface ImageProps {
 interface HeroProps {
     slides: Slide[];
 }
+
+// cards with image
+interface FeatureData {
+    imageUrl: string;
+    title: string;
+    description: string;
+}
