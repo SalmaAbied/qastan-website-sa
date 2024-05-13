@@ -14,6 +14,7 @@ import Jobs from './components/pages/Jobs';
 import Contact from './components/pages/Contact';
 import Blog from './components/pages/Blog';
 import Support from './components/pages/Support';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Blog" element={<Blog />} /> 
         <Route path="/Support" element={<Support />} /> 
       </Routes>
+      <Footer/>
     </Router>
   );
 }

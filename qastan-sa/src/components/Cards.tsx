@@ -3,7 +3,7 @@ import React from "react";
 function Oplossingen() {
   return (
     <section className="container mx-auto pb-40">
-      <h2 className="text-4xl md:text-5xl font-bold text-center">Oplossingen</h2>
+      <h2 className="text-4xl md:text-5xl font-semibold text-center">Oplossingen</h2>
       <hr className="mx-auto w-12 h-1 outline-0 border-0 bg-orange-500 block mt-4 mb-6" />
       <div className="gap-2 flex flex-wrap justify-center">
         <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 border-t-4 border-orange-500 shadow-2xl group">

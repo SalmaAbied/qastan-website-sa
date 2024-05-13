@@ -33,7 +33,7 @@ function Navbar() {
             </a>
           </div>
           <div className="flex items-center lg:hidden">
-            <button onClick={toggleMobileMenu} className="block text-gray-800 hover:text-gray-900 focus:text-gray-900 focus:outline-none">
+            <button onClick={toggleMobileMenu} className="block text-gray-800 hover:text-gray-800 focus:text-gray-800 focus:outline-none">
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {mobileMenuOpen ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /> : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />}
               </svg>

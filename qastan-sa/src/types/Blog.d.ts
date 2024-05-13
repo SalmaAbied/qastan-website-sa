@@ -21,3 +21,11 @@ interface FeatureData {
   title: string;
   description: string;
 }
+
+// cards with image (toepassingen)
+interface CardProps {
+  imageUrl: string;
+  tags: string[];
+  title: string;
+  description: string;
+}
