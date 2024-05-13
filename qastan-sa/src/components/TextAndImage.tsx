@@ -8,7 +8,7 @@ const featuresData: FeatureData[] = [
   }
 ];
 
-const Cards: React.FC = () => {
+const Card: React.FC = () => {
   return (
     <div className="p-8 md:p-20 mx-auto md:w-3/4">
       {featuresData.map((feature, index) => (
@@ -26,5 +26,5 @@ const Cards: React.FC = () => {
   );
 };
 
-export default Cards;
+export default Card;
 

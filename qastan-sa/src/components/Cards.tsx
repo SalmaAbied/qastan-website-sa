@@ -2,7 +2,7 @@ import React from "react";
 
 function Oplossingen() {
   return (
-    <section className="container mx-auto pb-20">
+    <section className="container mx-auto pb-40">
       <h2 className="text-4xl md:text-5xl font-bold text-center">Oplossingen</h2>
       <hr className="mx-auto w-12 h-1 outline-0 border-0 bg-orange-500 block mt-4 mb-6" />
       <div className="gap-2 flex flex-wrap justify-center">
@@ -15,7 +15,7 @@ function Oplossingen() {
             <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Archiveren, document management, digitaal ondertekenen, documentherkenning, structuur, workflow management, … Kies voor een papierloze organisatie!</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+            <a href="/Digitaliseren" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
               Meer informatie
             </a>
           </div>
@@ -29,7 +29,7 @@ function Oplossingen() {
             <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">100% focus op het maximaliseren van efficiëntie en productiviteit via integraties, koppelingen tussen systemen of een maatwerktoepassing om jouw organisatie aan te sturen.</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+            <a href="/Automatiseren" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
               Meer informatie
             </a>
           </div>
@@ -43,7 +43,7 @@ function Oplossingen() {
             <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Reduceer tijdverlies en optimaliseer productiviteit van werknemers, taken of machines. Optimaal aansturen van werknemers op basis van competenties, skills en taken.</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+            <a href="/Plannen" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
               Meer informatie
             </a>
           </div>
@@ -57,7 +57,7 @@ function Oplossingen() {
             <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Één aanspreekpunt voor alle IT-uitdagingen in jouw organisatie. Heldere communicatie, sterke expertise en duidelijk visie. Wij zijn de IT-partner die je nodig hebt!</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+            <a href="/IT" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
               Meer informatie
             </a>
           </div>
