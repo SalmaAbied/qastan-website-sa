@@ -1,23 +1,23 @@
 // hero
 interface Slide {
-    image: string;
-    title: string;
+  image: string;
+  title: string;
 }
-  
+
 interface ImageProps {
-    src: string;
-    title: string;
-    selected: boolean;
-    onClick: () => void;
+  src: string;
+  title: string;
+  selected: boolean;
+  onClick: () => void;
 }
 
 interface HeroProps {
-    slides: Slide[];
+  slides: Slide[];
 }
 
 // cards with image
 interface FeatureData {
-    imageUrl: string;
-    title: string;
-    description: string;
+  imageUrl: string;
+  title: string;
+  description: string;
 }

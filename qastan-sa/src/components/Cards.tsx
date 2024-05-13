@@ -1,85 +1,64 @@
-import React from 'react';
+import React from "react";
 
 function Oplossingen() {
-
   return (
-    <section className="container mx-auto">
-      <p className="text-md uppercase  text-center">onze</p>
-      <h2 className="text-4xl md:text-5xl font-bold text-center">oplossingen</h2>
+    <section className="container mx-auto pb-20">
+      <h2 className="text-4xl md:text-5xl font-bold text-center">Oplossingen</h2>
       <hr className="mx-auto w-12 h-1 outline-0 border-0 bg-orange-500 block mt-4 mb-6" />
       <div className="gap-2 flex flex-wrap justify-center">
-        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 rounded-lg rounded-t-md border-t-4 border-orange-500 shadow-2xl">
+        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 border-t-4 border-orange-500 shadow-2xl group">
           <div className="relative w-full h-96">
-            <img
-              src="https://images.unsplash.com/photo-1507831228884-93d43e81a99d?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              className="absolute inset-0 w-full h-full transition duration-500 opacity-75 hover:opacity-90 cursor-pointer object-cover"
-            />
+            <img src="https://th.bing.com/th/id/OIG3.ftLTbgmg9wTyyDxvCyr.?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="digitalisering" className="absolute opacity-30 lg:opacity-65 w-full object-contain transition duration-300 group-hover:opacity-10" />
           </div>
-          <div className="absolute inset-0 flex flex-col justify-start p-6 pointer-events-none">
-            <h3 className="text-white text-lg font-semibold mb-2 pointer-events-none">zfpeij</h3>
-            <p className="text-white font-bold text-sm mb-4 pointer-events-none">zioh</p>
+          <div className="absolute inset-0 flex flex-col justify-start p-6">
+            <h3 className="text-white text-2xl font-semibold mb-2">Digitaliseren</h3>
+            <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Archiveren, document management, digitaal ondertekenen, documentherkenning, structuur, workflow management, … Kies voor een papierloze organisatie!</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block hover:opacity-100 transition duration-500 w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3  hover:bg-[#fff2de]">
-              zni
-            </a>
-          </div>
-          <div className='absolute'>
-            <p>hello</p>
-          </div>
-        </div>
-        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 rounded-lg rounded-t-md border-t-4 border-pink-500 shadow-2xl">
-          <div className="relative w-full h-96">
-            <img
-              src="https://images.unsplash.com/photo-1664575601786-b00156752b61?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              className="absolute inset-0 w-full h-full transition duration-500 opacity-75 group-hover:opacity-90 cursor-pointer object-cover"
-            />
-          </div>
-          <div className="absolute inset-0 flex flex-col justify-start p-6 pointer-events-none">
-            <h3 className="text-white text-lg font-semibold mb-2 pointer-events-none">zni</h3>
-            <p className="text-white font-bold text-sm mb-4 pointer-events-none">flzni</p>
-          </div>
-          <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block hover:opacity-100 transition duration-500 group w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3  hover:bg-[#fff2de]">
-              zi
+            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+              Meer informatie
             </a>
           </div>
         </div>
-        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 rounded-lg rounded-t-md border-t-4 border-blue-500 shadow-2xl">
-          <div className="relative w-full h-96">
-            <img
-              src="https://images.unsplash.com/photo-1507208773393-40d9fc670acf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              className="absolute inset-0 w-full h-full transition duration-500 opacity-75 group-hover:opacity-90 cursor-pointer object-cover"
-            />
+        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 border-t-4 border-pink-500 shadow-2xl group">
+        <div className="relative w-full h-96">
+            <img src="https://th.bing.com/th/id/OIG3.F5nsU2ETP0w_caYzeO3y?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="automatiseren" className="absolute opacity-30 lg:opacity-65 w-full object-contain transition duration-300 group-hover:opacity-10" />
           </div>
-          <div className="absolute inset-0 flex flex-col justify-start p-6 pointer-events-none">
-            <h3 className="text-white text-lg font-semibold mb-2 pointer-events-none">epizhf</h3>
-            <p className="text-white font-bold text-sm mb-4 pointer-events-none">zeihp</p>
+          <div className="absolute inset-0 flex flex-col justify-start p-6">
+            <h3 className="text-white text-2xl font-semibold mb-2">Automatiseren</h3>
+            <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">100% focus op het maximaliseren van efficiëntie en productiviteit via integraties, koppelingen tussen systemen of een maatwerktoepassing om jouw organisatie aan te sturen.</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block hover:opacity-100 transition duration-500 w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3  hover:bg-[#fff2de]">
-              nzeip
+            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+              Meer informatie
             </a>
           </div>
         </div>
-        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 rounded-lg rounded-t-md border-t-4 border-blue-500 shadow-2xl">
-          <div className="relative w-full h-96">
-            <img
-              src="https://images.unsplash.com/photo-1507208773393-40d9fc670acf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
-              className="absolute inset-0 w-full h-full transition duration-500 opacity-75 group-hover:opacity-90 cursor-pointer object-cover"
-            />
+        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 border-t-4 border-blue-500 shadow-2xl group">
+        <div className="relative w-full h-96">
+            <img src="https://th.bing.com/th/id/OIG2.OEHBq1JW7Z7_zmAqMZl0?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="plannen" className="absolute opacity-30 lg:opacity-65 w-full object-contain transition duration-300 group-hover:opacity-10" />
           </div>
-          <div className="absolute inset-0 flex flex-col justify-start p-6 pointer-events-none">
-            <h3 className="text-white text-lg font-semibold mb-2 pointer-events-none">epizhf</h3>
-            <p className="text-white font-bold text-sm mb-4 pointer-events-none">zeihp</p>
+          <div className="absolute inset-0 flex flex-col justify-start p-6">
+            <h3 className="text-white text-2xl font-semibold mb-2">Plannen</h3>
+            <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Reduceer tijdverlies en optimaliseer productiviteit van werknemers, taken of machines. Optimaal aansturen van werknemers op basis van competenties, skills en taken.</p>
           </div>
           <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
-            <a href="#" className="block hover:opacity-100 transition duration-500 w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3  hover:bg-[#fff2de]">
-              nzeip
+            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+              Meer informatie
+            </a>
+          </div>
+        </div>
+        <div className="relative bg-gray-800 overflow-hidden shadow-lg w-72 h-72 border-t-4 border-green-500 shadow-2xl group">
+        <div className="relative w-full h-96">
+            <img src="https://th.bing.com/th/id/OIG1.VgM1jFInMMX6h0InRZEG?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="IT-beheer" className="absolute opacity-30 lg:opacity-65 w-full object-contain transition duration-300 group-hover:opacity-10" />
+          </div>
+          <div className="absolute inset-0 flex flex-col justify-start p-6">
+            <h3 className="text-white text-2xl font-semibold mb-2">IT-beheer</h3>
+            <p className="text-white font-medium text-sm mb-4 lg:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">Één aanspreekpunt voor alle IT-uitdagingen in jouw organisatie. Heldere communicatie, sterke expertise en duidelijk visie. Wij zijn de IT-partner die je nodig hebt!</p>
+          </div>
+          <div className="absolute inset-0 flex flex-col justify-end items-center p-6">
+            <a href="#" className="block w-fit md:mt-0 mt-2 font-medium md:mr-0 mr-2 bg-[#fff2dd] px-5 py-3">
+              Meer informatie
             </a>
           </div>
         </div>

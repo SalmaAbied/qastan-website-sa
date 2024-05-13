@@ -10,22 +10,21 @@ const featuresData: FeatureData[] = [
 
 const Cards: React.FC = () => {
   return (
-    <div className="p-8 md:p-20 w-3/4 mx-auto">
-      <div>
-        {featuresData.map((feature, index) => (
-          <div key={index} className={`bg-[#fcac0027] mb-8 md:mb-20 flex flex-col md:flex-row md:items-center ${index % 2 === 0 ? '' : 'md:flex-row-reverse bg-blue-500'}`}>
-            <div className="">
-              <img src={feature.imageUrl} alt={feature.title} className="w-96 block transform scale-105 transition duration-300 ease-in-out" />
-            </div>
-            <div className="md:w-1/2 mx-auto">
-              <h1 className="text-black text-4xl font-medium mb-4">{feature.title}</h1>
-              <p className="text-gray-800 text-base leading-7">{feature.description}</p>
-            </div>
+    <div className="p-8 md:p-20 mx-auto md:w-3/4">
+      {featuresData.map((feature, index) => (
+        <div key={index} className={`bg-[#fcac0027] mb-8 md:mb-20 flex flex-col xl:flex-row md:items-center ${index % 2 === 0 ? '' : 'md:flex-row-reverse bg-blue-500'}`}>
+          <div className="w-full md:w-1/2 mx-auto">
+            <img src={feature.imageUrl} alt={feature.title} className="w-full md:max-w-xl block mx-auto md:mx-0 transform scale-105 transition duration-300 ease-in-out" />
           </div>
-        ))}
-      </div>
+          <div className="w-full xl:w-1/2 mx-auto px-10 py-5">
+            <h1 className="text-black text-2xl md:text-4xl font-medium mb-4 mt-5 md:mt-0">{feature.title}</h1>
+            <p className="text-gray-800 text-base leading-7 mb-5 md:mb-0">{feature.description}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
 
 export default Cards;
+

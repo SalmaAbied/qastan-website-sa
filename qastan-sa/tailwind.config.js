@@ -1,5 +1,5 @@
 module.exports = {
-  darkMode: false, 
+  darkMode: false,
   content: [
     './src/**/*.{ts,tsx}',
     './src/*.{ts,tsx}',
