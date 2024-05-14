@@ -29,3 +29,21 @@ interface CardProps {
   title: string;
   description: string;
 }
+
+// cards grid (oplossingen)
+
+interface CardData {
+  src: string;
+  alt: string;
+  category: string;
+  link: string; 
+}
+
+interface GridCardsProps {
+  cards: CardData[];
+}
+
+// hero collage (oplossingen)
+interface HeroCollageProps {
+  images: string[];
+}

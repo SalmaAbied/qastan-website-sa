@@ -44,22 +44,22 @@ function Navbar() {
               <a href="/" className="m-2 flex items-center">
                 <NavigationMenuDemo />
               </a>
-              <a href="/Toepassingen" className="m-2 px-4 font-medium flex items-center">
+              <a href="/Toepassingen" className="m-2 px-4 font-medium hover:text-orange-500 transition duration-300 flex items-center">
                 Toepassingen
               </a>
-              <a href="/Over" className="m-2 px-4 font-medium flex items-center">
+              <a href="/Over" className="m-2 px-4 font-medium hover:text-orange-500 transition duration-300 flex items-center">
                 Over ons
               </a>
-              {/* <a href='/Jobs' className='m-2 px-4 font-medium flex items-center'>Jobs</a> */}
-              <a href="/Contact" className="m-2 px-4 font-medium flex items-center">
+              {/* <a href='/Jobs' className='m-2 px-4 font-medium hover:text-orange-500 transition duration-300 flex items-center'>Jobs</a> */}
+              <a href="/Contact" className="m-2 px-4 font-medium hover:text-orange-500 transition duration-300 flex items-center">
                 Contact
               </a>
-              <a href="/Blog" className="m-2 px-4 font-medium flex items-center">
+              <a href="/Blog" className="m-2 px-4 font-medium hover:text-orange-500 transition duration-300 flex items-center">
                 Blog
               </a>
             </div>
             <div className="flex items-center">
-              <a href="/Support" className="text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8 m-2 flex items-center">
+              <a href="/Support" className="text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8 m-2 flex items-center transition duration-300">
                 Support
               </a>
               <a href="/" className="m-2">
@@ -91,7 +91,7 @@ function Navbar() {
               Blog
             </a>
             <div className="flex flex-col items-center">
-              <a href="/Support" className="text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8 m-2 flex items-center">
+              <a href="/Support" className="text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8 m-2 flex items-center transition duration-300">
                 Support
               </a>
               <a href="/" className="m-2">

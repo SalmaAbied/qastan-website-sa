@@ -15,6 +15,8 @@ import Contact from './components/pages/Contact';
 import Blog from './components/pages/Blog';
 import Support from './components/pages/Support';
 import Footer from './components/Footer';
+import Team from './components/pages/Team';
+import Partners from './components/pages/Partners';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
         <Route path="/Oplossingen/Automatiseren" element={<Automatiseren />} /> 
         <Route path="/Toepassingen" element={<Toepassingen />} /> 
         <Route path="/Over" element={<Over />} /> 
+        <Route path="/Team" element={<Team />} /> 
         <Route path="/Jobs" element={<Jobs />} /> 
+        <Route path="/Partners" element={<Partners />} /> 
         <Route path="/Contact" element={<Contact />} /> 
         <Route path="/Blog" element={<Blog />} /> 
         <Route path="/Support" element={<Support />} /> 

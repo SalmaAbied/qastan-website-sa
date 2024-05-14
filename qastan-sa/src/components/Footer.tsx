@@ -39,13 +39,13 @@ const Footer: React.FC = () => {
             </div>
             <div className="flex space-x-3">
               <span className="text-lg font-semibold">Volg ons</span>
-              <a href="#" className="text-2xl text-orange-500">
+              <a href="https://www.facebook.com/profile.php?id=100090413298416&locale=nl_NL" target="_blank" className="text-2xl text-orange-500">
                 <Facebook />
               </a>
-              <a href="#" className="text-2xl text-orange-500">
+              <a href="https://www.instagram.com/qastan_it/" target="_blank" className="text-2xl text-orange-500">
                 <Instagram />
               </a>
-              <a href="#" className="text-2xl text-orange-500">
+              <a href="https://www.linkedin.com/company/qastan-it/posts/?feedView=all" target="_blank" className="text-2xl text-orange-500">
                 <Linkedin />
               </a>
             </div>

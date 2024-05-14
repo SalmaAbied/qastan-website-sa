@@ -30,8 +30,8 @@ const CardWithDynamicContent: React.FC = () => {
         <hr className="mx-auto w-12 h-1 outline-0 border-0 bg-orange-500 block mt-4 mb-6" />
         <div className="flex flex-wrap container mx-auto justify-around xxl:w-3/4">
           {cardData.map((card, index) => (
-            <div key={index} className="bg-white p-4 shadow-lg w-min mb-8 flex flex-col">
-              <div className="w-96 h-96 overflow-hidden flex items-center">
+            <div key={index} className="bg-white p-4 shadow-lg w-3/4 sm:w-min mb-8 flex flex-col">
+              <div className="sm:w-96 sm:h-96 overflow-hidden flex items-center">
                 <img src={card.imageUrl} alt={card.title} />
               </div>
               <div className="overflow-hidden relative flex-grow">
