@@ -32,7 +32,6 @@ const LogosSlider = () => {
     ],
   };
 
-
   const goToPrevSlide = () => {
     if (sliderRef.current) {
       sliderRef.current.slickPrev();
@@ -46,19 +45,37 @@ const LogosSlider = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-5">
+      <h2 className="text-4xl md:text-5xl font-semibold text-center">Enkele partners</h2>
+      <hr className="mx-auto w-12 h-1 outline-0 border-0 bg-orange-500 block mt-4 mb-6" />
       <Slider ref={sliderRef} {...settings} className="py-10 flex justify-center">
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Gaverzicht.jpg?nc=1709650208" alt="Logo 1" className="mx-auto" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/AVIA.jpg?nc=1709650208" alt="Logo 2" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Brouwerij-Van-Honsebrouck.jpg?nc=1709650208" alt="Logo 3" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Frame.svg?nc=1709650208" alt="Logo 4" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/club-logo-kv-kortrijk-qastan.png?nc=1709650208" alt="Logo 5" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Bpost_logo-1.svg?nc=1709650208" alt="Logo 6" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Lecot.jpg?nc=1709650208" alt="Logo 7" className="mx-auto w-36 h-36 object-contain" /></div>
-        <div className="px-5 flex justify-center"><img src="https://www.qastan.be/swfiles/files/Televic_logo_new_600-1.svg?nc=1709650208" alt="Logo 8" className="mx-auto w-36 h-36 object-contain" /></div>
-      </Slider>  
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Gaverzicht.jpg?nc=1709650208" alt="Logo 1" className="mx-auto" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/AVIA.jpg?nc=1709650208" alt="Logo 2" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Brouwerij-Van-Honsebrouck.jpg?nc=1709650208" alt="Logo 3" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Frame.svg?nc=1709650208" alt="Logo 4" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/club-logo-kv-kortrijk-qastan.png?nc=1709650208" alt="Logo 5" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Bpost_logo-1.svg?nc=1709650208" alt="Logo 6" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Lecot.jpg?nc=1709650208" alt="Logo 7" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+        <div className="px-5 flex justify-center">
+          <img src="https://www.qastan.be/swfiles/files/Televic_logo_new_600-1.svg?nc=1709650208" alt="Logo 8" className="mx-auto w-36 h-36 object-contain" />
+        </div>
+      </Slider>
       <button onClick={goToPrevSlide}>
-        <ArrowLeftIcon size={24}/>
+        <ArrowLeftIcon size={24} />
       </button>
       <button onClick={goToNextSlide}>
         <ArrowRightIcon size={24} />
