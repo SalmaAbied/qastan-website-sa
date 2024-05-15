@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 body {
   margin: 0;
   font-family: "Reddit-sans", sans-serif;
+  color: #1F2937;
 }
 
 code {
   font-family: "Reddit-sans", sans-serif;
+}
+
+.activ {
+  @apply font-bold text-blue-500;
 }

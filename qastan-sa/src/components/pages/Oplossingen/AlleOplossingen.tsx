@@ -1,24 +1,21 @@
 import React from "react";
 import HeroCollage from "../../HeroCollage";
-import Tabs from "../../TabsCards";
 import CarouselWithText from "../../Carousel";
 import CardBlock from "../../CardBlock";
-import CtaBanner from "../../CTABanner";
 import LogosSlider from "../../Slider";
+import CtaBanner from "../../CTABannerTwo";
+import Tabs from "../../TabsCards";
 
-function Oplossingen() {
+
+function Alle() {
   return (
     <>
-      {/*  
-      <Tabs />
-       */}
-      <HeroCollage />
-      <CarouselWithText />
+      {/* <CarouselWithText />
       <CardBlock />
       <CtaBanner />
-      <LogosSlider />
+      <LogosSlider /> */}
     </>
   );
 }
 
-export default Oplossingen;
+export default Alle;

@@ -20,6 +20,7 @@ interface FeatureData {
   imageUrl: string;
   title: string;
   description: string;
+  button: string;
 }
 
 // cards with image (toepassingen)

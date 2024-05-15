@@ -46,13 +46,14 @@ const CardBlock: React.FC = () => {
   ];
 
   return (
+    <>
     <section className="container mx-auto my-20 px-5 md:px-20">
       <h2 className="text-center text-3xl font-bold md:mb-5 pt-10">Jouw digitale bouwstenen</h2>
       <p className="text-center text-sm lg:text-lg max-w-3xl mx-auto mb-10">Op zoek naar een IT-partner om de digitalisering van je organisatie in goede banen te leiden? Software op maat, document management of personeelsplanning, bij Qastan kunnen we het allemaal. We duiken in je business, zwemmen samen richting een optimale digitale workflow en laten je bedrijf vliegen! Wij zijn de digitale architecten voor jouw organisatie of bedrijf. Net als de papegaaiduiker in ons logo, zijn onze medewerkers multi-getalenteerd en kunnen ze het hele spectrum van digitale transformatie aan.</p>
       <div className="flex flex-col gap-6 mt-16">
         {cardsData.map((card, index) => (
           <div key={index} className={`flex flex-col md:flex-row md:gap-6 ${index % 2 === 0 ? "md:flex-row-reverse" : ""}`}>
-            <div className={`w-full lg:w-3/4 bg-[${card.backgroundColor}] flex flex-col justify-center p-8 lg:p-14 ${index % 2 === 0 ? "md:order-1" : "md:order-2"}`}>
+            <div style={{ backgroundColor: card.backgroundColor }} className={`w-full lg:w-3/4 flex flex-col justify-center p-8 lg:p-14 ${index % 2 === 0 ? "md:order-1" : "md:order-2"}`}>
               <h3 className="text-2xl  font-semibold mb-5">{card.title}</h3>
               <p className="opacity-75">{card.description}</p>
               <div className="flex justify-start my-10 text-white">
@@ -71,6 +72,7 @@ const CardBlock: React.FC = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

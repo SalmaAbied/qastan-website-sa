@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
           <div>
             <div className="mb-5">
-              <img src={logo} alt="logo" className="max-w-xs" />
+              <img src={logo} alt="logo" className="max-w-40" />
             </div>
             <div className="flex space-x-3">
               <span className="text-lg font-semibold">Volg ons</span>

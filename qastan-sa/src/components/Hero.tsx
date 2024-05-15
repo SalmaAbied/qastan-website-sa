@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       backSpeed: 40,
       backDelay: 2000,
       showCursor: false,
-      loop: false,
+      loop: true,
     };
     const typed = new Typed(".p2", options);
 
@@ -24,9 +24,9 @@ const Hero: React.FC = () => {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center sm:p-5 md:p-10 overflow-hidden container mx-auto">
       <div className="flex flex-col items-left md:gap-5 p-10 md:p-20">
-        <p className="text-gray-800 text-3xl md:text-5xl lg:text-7xl h-10 lg:h-20">Helemaal</p>
-        <p className="p2 text-3xl md:text-5xl lg:text-7xl font-bold text-orange-500 h-10 lg:h-20 mb-5">digitaal</p>
-        <p className="text-gray-800 text-base lg:text-lg pb-10">Op zoek naar een IT-partner om de digitalisering van je organisatie in goede banen te leiden? Software op maat, document management of personeelsplanning, bij Qastan kunnen we het allemaal. </p>
+        <p className=" text-4xl md:text-5xl lg:text-7xl h-10 lg:h-20">Helemaal</p>
+        <p className="p2 text-4xl md:text-5xl lg:text-7xl text-orange-500 h-10 lg:h-20 mb-5">digitaal</p>
+        <p className=" text-base lg:text-lg pb-10">Op zoek naar een IT-partner om de digitalisering van je organisatie in goede banen te leiden? Software op maat, document management of personeelsplanning, bij Qastan kunnen we het allemaal. </p>
         <a href="/Support" className="w-fit text-white border-2 bg-orange-500 hover:border-2 border-orange-500 hover:bg-white hover:text-orange-500 font-medium px-4 h-8  flex items-center">
           Neem contact op
         </a>

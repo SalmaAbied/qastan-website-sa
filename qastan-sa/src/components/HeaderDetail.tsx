@@ -3,7 +3,7 @@ import React from "react";
 function HeaderDetail() {
   return (
     <>
-      <div className="container mx-auto mt-20 mb-5 bg-gray-800 relative h-72">
+      <div className="container mx-auto md:mt-20 mb-5 bg-gray-800 relative h-72">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
           <div className="absolute top-0 right-0 flex">
             <div className="w-4 h-4 md:w-8 md:h-8 bg-red-500"></div>

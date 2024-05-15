@@ -23,10 +23,10 @@ const CarouselWithText = () => {
   };
 
   const images = [
-    { id: 1, src: "https://www.qastan.be/swfiles/files/penguin-blue.svg?nc=1715340943", alt: "Image 1", title: "Digitaliseren", link: "/Oplossingen/Digitaliseren" },
-    { id: 2, src: "https://www.qastan.be/swfiles/files/penguin-orange.svg?nc=1715340943", alt: "Image 2", title: "Automatiseren", link: "/Oplossingen/Automatiseren" },
-    { id: 3, src: "https://www.qastan.be/swfiles/files/penguin-red.svg?nc=1715340943", alt: "Image 3", title: "Plannen", link: "/Oplossingen/Plannen" },
-    { id: 4, src: "https://www.qastan.be/swfiles/files/penguin-yellow.svg?nc=1715340943", alt: "Image 4", title: "IT-beheer", link: "/Oplossingen/IT" },
+    { id: 1, src: "https://www.qastan.be/swfiles/files/penguin-blue.svg?nc=1715340943", alt: "Lego Digitaliseren", title: "Digitaliseren", link: "/Oplossingen/Digitaliseren" },
+    { id: 2, src: "https://www.qastan.be/swfiles/files/penguin-orange.svg?nc=1715340943", alt: "Lego Automatiseren", title: "Automatiseren", link: "/Oplossingen/Automatiseren" },
+    { id: 3, src: "https://www.qastan.be/swfiles/files/penguin-red.svg?nc=1715340943", alt: "Lego Plannen", title: "Plannen", link: "/Oplossingen/Plannen" },
+    { id: 4, src: "https://www.qastan.be/swfiles/files/penguin-yellow.svg?nc=1715340943", alt: "Lego IT", title: "IT-beheer", link: "/Oplossingen/IT" },
   ];
 
   return (
