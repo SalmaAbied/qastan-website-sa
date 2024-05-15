@@ -1,4 +1,3 @@
-"use client";
 import { useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import { cn } from "../../utils";
@@ -6,9 +5,9 @@ import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMe
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Plannen via MountQ",
-    href: "/Oplossingen/Plannen",
-    description: "Intelligente planningsystemen (AI-based) en werkplekplanning die het verschil maken.",
+    title: "Digitaliseren via FITdoc DMS",
+    href: "/Oplossingen/Digitaliseren",
+    description: "Van kleine tot grote digitaliserings- en scanoplissingen. Op maat of gewoon standaard.",
   },
   {
     title: "Automatiseren via Cirta ERP",
@@ -16,9 +15,9 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Centraliseer alle logistieke, administratieve en financiële processen in één enkele applicatie.",
   },
   {
-    title: "Digitaliseren via FITdoc DMS",
-    href: "/Oplossingen/Digitaliseren",
-    description: "Van kleine tot grote digitaliserings- en scanoplissingen. Op maat of gewoon standaard.",
+    title: "Plannen via MountQ",
+    href: "/Oplossingen/Plannen",
+    description: "Intelligente planningsystemen (AI-based) en werkplekplanning die het verschil maken.",
   },
   {
     title: "IT Management, netwerk & infrastructuur ",
@@ -30,23 +29,24 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavigationMenuDemo() {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activePage, setActivePage] = useState("");
+
+  useEffect(() => {
+    // Set the active page based on the current location
+    const path = location.pathname;
+    setActivePage(path);
+  }, [location]);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  const [activePage, setActivePage] = useState(""); 
-  
-  useEffect(() => {
-    const path = window.location.pathname;
-    setActivePage(path);
-  }, []);
 
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <a href="/Oplossingen" className={`text-base m-2 flex items-center ${activePage === "/Oplossingen" ? "text-orange-500" : ""}`} onClick={handleMenuToggle}>
+            <a href="/Oplossingen" className={`text-base m-2 flex items-center ${activePage.startsWith("/Oplossingen") ? "text-orange-500" : ""}`} onClick={handleMenuToggle}>
               Oplossingen
             </a>
           </NavigationMenuTrigger>

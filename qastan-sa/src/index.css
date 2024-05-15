@@ -6,13 +6,9 @@
 body {
   margin: 0;
   font-family: "Reddit-sans", sans-serif;
-  color: #1F2937;
+  color: #1f2937;
 }
 
 code {
   font-family: "Reddit-sans", sans-serif;
-}
-
-.activ {
-  @apply font-bold text-blue-500;
 }
