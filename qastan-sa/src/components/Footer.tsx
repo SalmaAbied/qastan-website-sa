@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center">
             <i className="fas fa-map-marker-alt text-orange-500 text-2xl mr-3"></i>
             <div>
-              <h4 className="text-lg font-semibold">Adres</h4>
+              <h4 className="text-lg font-medium">Adres</h4>
               <hr className="w-12 h-0.5 bg-orange-500 border-0 mb-3" />
               <span>Brugsesteenweg 48, 8520 Kuurne</span>
             </div>
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center">
             <i className="fas fa-phone text-orange-500 text-2xl mr-3"></i>
             <div>
-              <h4 className="text-lg font-semibold">Neem contact op met ons</h4>
+              <h4 className="text-lg font-medium">Neem contact op met ons</h4>
               <hr className="w-12 h-0.5 bg-orange-500 border-0 mb-3" />
               <span>+32 (0)51 31 07 44</span>
             </div>
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center">
             <i className="far fa-envelope-open text-orange-500 text-2xl mr-3"></i>
             <div>
-              <h4 className="text-lg font-semibold">Mail ons</h4>
+              <h4 className="text-lg font-medium">Mail ons</h4>
               <hr className="w-12 h-0.5 bg-orange-500 border-0 mb-3" />
               <span>info@qastan.be</span>
             </div>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <img src={logo} alt="logo" className="max-w-40" />
             </div>
             <div className="flex space-x-3">
-              <span className="text-lg font-semibold">Volg ons</span>
+              <span className="text-lg font-medium">Volg ons</span>
               <a href="https://www.facebook.com/profile.php?id=100090413298416&locale=nl_NL" target="_blank" className="text-2xl text-orange-500">
                 <Facebook />
               </a>
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <div className="mb-5">
-              <h3 className="text-lg font-semibold">Nuttige links</h3>
+              <h3 className="text-lg font-medium">Nuttige links</h3>
               <hr className="w-12 h-0.5 bg-orange-500 border-0 mb-3" />
               <ul className="grid grid-cols-2">
                 <li className="hover:text-orange-500 transition duration-300">
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <div className="mb-5">
-              <h3 className="text-lg font-semibold">Schrijf je in</h3>
+              <h3 className="text-lg font-medium">Schrijf je in</h3>
               <hr className="w-12 h-0.5 bg-orange-500 border-0 mb-3" />
 
               <p className="mb-3">Niet vergeten om je te abonneren op onze nieuwsbrief</p>

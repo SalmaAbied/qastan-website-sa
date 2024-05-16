@@ -39,7 +39,7 @@ const oplossingenData = [
   }
 ];
 
-function Oplossingen() {
+function CardWithHover() {
   return (
     <section className="container mx-auto mb-10">
       <h2 className="text-4xl md:text-5xl font-semibold text-center">Oplossingen</h2>
@@ -62,8 +62,11 @@ function Oplossingen() {
           </div>
         ))}
       </div>
+      <div className="hidden">
+        <div className="border-orange-500 border-pink-500 border-blue-500 border-green-500"></div>
+      </div>
     </section>
   );
 }
 
-export default Oplossingen;
+export default CardWithHover;

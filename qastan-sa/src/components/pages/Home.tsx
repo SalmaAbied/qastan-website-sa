@@ -2,10 +2,10 @@ import React from "react";
 import Hero from "../Hero";
 import LogosSlider from "../Slider";
 import Card from "../TextAndImage";
-import Oplossingen from "../Cards";
+import CardWithHover from "../Cards";
 import CtaBanner from "../CTABanner";
 import CardWithText from "../ImageAndText";
-import CardWithVissibleText from "../CardWithText";
+import CardWithDynamicContent from "../CardWithText";
 
 function Home() {
   return (
@@ -13,10 +13,10 @@ function Home() {
         <Hero />
         <LogosSlider />
         <Card />
-        <Oplossingen />
+        <CardWithHover />
         <CtaBanner />
         <CardWithText />
-        <CardWithVissibleText />
+        <CardWithDynamicContent />
     </>
   );
 }
